@@ -2,7 +2,7 @@
   "name": "Loki Autofill",
   "version": "1.0",
   "description": "Chrome extension for autofilling commonly used Loki queries",
-  "manifest_version": 1,
+  "manifest_version": 3,
   "icons": {
     "16": "icons/loki.png",
     "48": "icons/loki.png",
