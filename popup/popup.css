@@ -1,0 +1,42 @@
+body {
+  background-color: #303030;
+  margin: 15px;
+  /* width: 100%; */
+  white-space: nowrap;
+}
+
+h1 {
+  color: #f5bc00;
+  white-space: nowrap;
+}
+p {
+  color: white;
+}
+button {
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f56600;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.headingContainer {
+  display: flex;
+  /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+  align-items: center;
+  margin-bottom: 15px;
+  /* gap: 8px; */
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.heading {
+  margin: 0px;
+}

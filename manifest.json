@@ -1,8 +1,8 @@
 {
+  "manifest_version": 3,
   "name": "Loki Autofill",
   "version": "1.0",
   "description": "Chrome extension for autofilling commonly used Loki queries",
-  "manifest_version": 3,
   "icons": {
     "16": "icons/loki.png",
     "48": "icons/loki.png",
@@ -11,5 +11,7 @@
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": "icons/loki.png"
-  }
+  },
+  "permissions": ["activeTab", "scripting", "storage", "tabs", "<all_urls>"],
+  "author": "Jack Browne"
 }
